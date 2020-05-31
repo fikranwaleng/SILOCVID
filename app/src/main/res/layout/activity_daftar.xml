@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/register_backround"
+    tools:context=".Daftar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/buat_akun"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginTop="100dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/masukkan_email"
+                android:layout_marginTop="25dp"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="15dp"
+                />
+
+            <EditText
+                android:id="@+id/no_ktp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/masukkan_no_ktp"
+                android:inputType="number"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ktp"
+                android:drawablePadding="15dp"
+                />
+
+            <EditText
+                android:id="@+id/no_hp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/masukkan_no_hp"
+                android:inputType="phone"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/telpon"
+                android:drawablePadding="15dp"
+                />
+
+            <EditText
+                android:id="@+id/kata_sandi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/masukkan_kata_sandi"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="15dp"
+                app:passwordToggleEnabled="true"
+                />
+
+            <EditText
+                android:id="@+id/konf_kata_sandi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/konfirmasii_kata_sandi"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="15dp"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saya_menyetujui_syarat_dan_ketentuan_yang_berlaku"
+                android:textSize="13dp"
+                android:layout_gravity="left"
+                />
+
+
+
+            <Button
+                android:id="@+id/btn_daftar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/tombol"
+                android:text="@string/daftar"
+                android:elevation="5dp"
+                android:textColor="@android:color/white" />
+
+            <ProgressBar
+                android:id="@+id/progress1"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>

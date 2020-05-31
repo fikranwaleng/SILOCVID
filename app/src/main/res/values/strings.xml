@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SILCOVID</string>
+    <string name="title_activity_location">Map</string>
+    <string name="judul_splash">SISTEM INFORMASI \n LOKASI PENANGANAN COVID-19</string>
+    <string name="info">UNTUK MENAMBAH INFORMASI\nSILAHKAN MASUK TERLEBIH DAHULU</string>
+    <string name="title_activity_login" />
+    <string name="title_activity_maps" />
+    <string name="masuk">MASUK</string>
+    <string name="masukkan_email">Masukkan Email...</string>
+    <string name="belum_punya_akun_buat_akun">Belum Punya Akun? Buat Akun</string>
+    <string name="buat_akun">BUAT AKUN</string>
+    <string name="masukkan_no_ktp">Masukkan No KTP...</string>
+    <string name="masukkan_no_hp">Masukkan No Hp...</string>
+    <string name="masukkan_kata_sandi">Masukkan Kata Sandi....</string>
+    <string name="konfirmasii_kata_sandi">Konfirmasi Kata Sandi...</string>
+    <string name="pilihan">Pilih Instansi....</string>
+    <string name="tambah_info">Informasi yang akan anda bagikan Masih Kosong\nSilahkan klik icon Tambah pada sudut kanan bawah\nuntuk menambahkan informasi</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="saya_menyetujui_syarat_dan_ketentuan_yang_berlaku">Saya Menyetujui Syarat dan Ketentuan yang Berlaku</string>
+    <string name="simpan">Simpan</string>
+    <string name="profil">profil</string>
+    <string-array name="instansi">
+        <item>Rumah Sakit</item>
+        <item>Puskesmas</item>
+        <item>Lainnya...</item>
+    </string-array>
+</resources>
